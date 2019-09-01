@@ -456,6 +456,7 @@ Start of the featured applications section.
 
 .phead > .plogo > img {
 	width: 80px;
+	margin-top: 15vh;
 }
 
 #p1_year, #p1_name {
