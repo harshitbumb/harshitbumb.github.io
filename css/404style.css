@@ -134,7 +134,7 @@ End of top navigation bar.
 
 .about_head {
     width: 100%;
-    padding-top: 24vh;
+    padding-top: 0vh;
     padding-bottom: 6vh;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -371,6 +371,7 @@ Applying break-points
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+		margin-bottom: 20vw;
     }
 
     .logo_home_nav {
@@ -401,6 +402,7 @@ Applying break-points
 		order: 1;
 	}
     .about_head {
+		padding-top: 0vw;
         padding-left: 20vw;
         padding-right: 20vw;
     }
@@ -412,7 +414,6 @@ Applying break-points
     }
 
     .about_cont {
-		margin-top: 8vw;
         padding-left: 20vw;
         padding-right: 20vw;
 		text-align: center
