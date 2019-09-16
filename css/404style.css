@@ -18,6 +18,13 @@
     display: flex;
     flex-wrap: wrap;
 }
+.error{
+		display: flex;
+	width: 100%
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding-top: 4vh;
+	}
 
 
 
@@ -70,7 +77,13 @@ Start of the navigation bar at the top.
     display: flex;
     flex-wrap: wrap;
 }
-
+.pimage > img {
+	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
 .nav_pri {
     width: 22.5%;
     transition: all 0.2s ease-in-out;
@@ -134,14 +147,14 @@ End of top navigation bar.
     font-weight: lighter;
     line-height: 1.44em;
 }
-.textCont p {
+.phead p {
     color: #dadada;
     font-size: 128px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.textCont h3 {
+.phead h3 {
     font-size: 1.44em;
     margin: 2vh auto;
     margin-top: 2vh;
@@ -157,7 +170,7 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.textCont h4 {
+.phead h4 {
     font-size: 1em;
     line-height: 1.5em;
     margin: 0vh auto;
@@ -170,7 +183,7 @@ h4 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.textCont h3, .textCont h4 {
+.phead h3, .phead h4 {
     text-align: center;
     font-weight: lighter;
 }
@@ -189,7 +202,7 @@ hr {
 
 .about_cont {
     width: 100%;
-    text-align: left;
+    text-align: center;
     padding-left: 10vw;
     padding-right: 10vw;
     padding-bottom: 6vh;
@@ -363,7 +376,14 @@ Applying break-points
         width: 45%;
         padding-top: 2vh;
     }
-
+	.error {
+		display: flex;
+		align-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding-top: 4vh;
+	}
     .top_nav {
         width: 50%;
         float: right;
@@ -373,7 +393,12 @@ Applying break-points
     #navhome {
         padding-top: 1vh;
     }
-
+	.phead, .pimage {
+		width: 100%;
+	}
+	.error > .phead {
+		order: 1;
+	}
     .about_head {
         padding-left: 20vw;
         padding-right: 20vw;
@@ -386,8 +411,10 @@ Applying break-points
     }
 
     .about_cont {
+		margin-top: 5VW;
         padding-left: 20vw;
         padding-right: 20vw;
+		text-align: center
     }
 
     .about_desc {
