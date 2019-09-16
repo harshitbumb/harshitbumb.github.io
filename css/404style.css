@@ -14,7 +14,7 @@
 }
 
 .row {
-	width: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -134,7 +134,7 @@ End of top navigation bar.
 
 .about_head {
     width: 100%;
-    padding-top: 0vh;
+    padding-top: 24vh;
     padding-bottom: 6vh;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -202,8 +202,7 @@ hr {
 
 .about_cont {
     width: 100%;
-	margin-top: 8vw;
-    text-align: center;
+    text-align: left;
     padding-left: 10vw;
     padding-right: 10vw;
     padding-bottom: 6vh;
